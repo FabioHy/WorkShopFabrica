@@ -1,0 +1,35 @@
+eevee:{
+	id:{133}
+	type:{"normal"}
+	species:{
+		id:{133}
+    	evolution-chain:{
+			id:{67}
+			evolutions:{"vaporeon", "jolteon", "flareon", "espeon", "umbreon", "leafeon", "glaceon", "sylveon"}
+		}
+	}
+}
+
+pichu:{
+	id:{172}
+	type:{"electric"} 
+	species:{
+		id:{172}
+		evolution-chain:{
+			id:{10}
+			evolutions:{"raichu", "pikachu"}
+		}
+	}
+}
+
+charmander:{
+	id:{4}
+	type:{"fire"}
+	species:{
+		id:{4}
+		evolution-chain:{
+			id:{2}
+			evolutions:{"charmeleon", "charizard"}
+		}
+	}
+}
