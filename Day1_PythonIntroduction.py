@@ -24,3 +24,5 @@ print(multiplo(num1, num2))
 lado = int(input("Informe o numero de lados: "))
 
 print(SquareArea(lado))
+
+#a
