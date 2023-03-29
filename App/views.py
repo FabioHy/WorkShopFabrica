@@ -8,4 +8,4 @@ from App.models import LuisAmigo
 
 class LuisAmigoViewSet(viewsets.ModelViewSet):
     queryset = LuisAmigo.objects.all()
-    serializer_class = LuisAmigo
+    serializer_class = LuisAmigoSerializer
