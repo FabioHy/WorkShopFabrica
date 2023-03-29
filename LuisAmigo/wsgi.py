@@ -1,5 +1,5 @@
 """
-WSGI config for FabricaSoftware project.
+WSGI config for LuisAmigo project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
