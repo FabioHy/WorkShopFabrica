@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'FabricaSoftware.urls'
+ROOT_URLCONF = 'LuisAmigo.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'FabricaSoftware.wsgi.application'
+WSGI_APPLICATION = 'LuisAmigo.wsgi.application'
 
 
 # Database
