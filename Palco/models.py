@@ -12,7 +12,7 @@ class Musico(models.Model):
 
 class Instrumento(models.Model):
     modelo = models.CharField(max_length=50)
-    quantidade = models.CharField
+    quantidade = models.IntegerField(default='1')
 
     def __str__(self):
         return self.modelo

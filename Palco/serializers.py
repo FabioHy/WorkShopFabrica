@@ -9,7 +9,7 @@ class MusicoSerializer (serializers.ModelSerializer):
 class InstrumentoSerializer (serializers.ModelSerializer):
     class Meta:
         model = Instrumento
-        fields = ('__all__')
+        fields = ('id', 'modelo', 'quantidade')
 
 
 

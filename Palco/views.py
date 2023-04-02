@@ -1,19 +1,27 @@
-from rest_framework import viewsets, generics, status
+from rest_framework import generics
 from .models import Musico, Instrumento
 from .serializers import MusicoSerializer, InstrumentoSerializer
 
-from rest_framework.response import Response
 
 
 # Create your views here.
     
-class MusicoView(viewsets.ModelViewSet):
-    queryset = Musico.objects.all()
+class MusicoView(generics.ListCreateAPIView):
     serializer_class = MusicoSerializer
+    queryset = Musico.objects.all()
 
-class InstrumentoView(viewsets.ModelViewSet):
+class MusicoEditar(generics.RetrieveUpdateDestroyAPIView):
+    serializer_class = MusicoSerializer
+    queryset = Musico.objects.all()
+
+class InstrumentoView(generics.ListCreateAPIView):
     queryset = Instrumento.objects.all()
     serializer_class = InstrumentoSerializer
+
+class InstrumentoEditar(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Instrumento.objects.all()
+    serializer_class = InstrumentoSerializer
+
 
 
 
