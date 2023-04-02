@@ -1,5 +1,8 @@
 from rest_framework import routers
-from Palco.views import MusicoView, InstrumentoView
+from django.urls import path, include
+from .views import MusicoView, InstrumentoView
+
+#from rest_framework import routers
 
 router = routers.DefaultRouter()
 router.register (r'Musicos', MusicoView)
